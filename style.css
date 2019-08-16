@@ -1,0 +1,70 @@
+/* jumbotron */
+.jumbotron {
+  background: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 500px; */
+}
+
+.jumbotron-txt {
+  padding: 100px 0;
+  padding-left: 30px;
+}
+
+/* header */
+.header i {
+  color: #1E7A86;
+}
+
+/* main */
+.main {
+  background: #1E7A86;
+}
+
+/* footer */
+.footer a {
+  color: #333;
+}
+
+.footer span {
+  background: #1E7A86;
+}
+
+.copyrights .container {
+  display: flex;
+}
+
+.copyrights-txt {
+  display: flex;
+}
+
+.copyrights p {
+  margin: auto;
+}
+
+.copyrights-btn {
+  margin-left: auto;
+  display: flex;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+/* media queries */
+@media (max-width: 798px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  .jumbotron-txt {
+    padding-left: 0;
+  }
+
+  .jumbotron h1 {
+    font-size: 40px;
+  }
+
+  .copyrights-txt {
+    font-size: 14px;
+  }
+}
